@@ -1,9 +1,14 @@
-:root{
-    --text-color: #434455
-}
+
 body {
-    font-family: "roboto", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+:root{
+    --text-color: #2E2F42;
+    --second-text-color: #4D5AE5;
+    --background-color: #2E2F42;
 }
 
 .list{
@@ -14,6 +19,29 @@ body {
     text-decoration: none;
 }
 
+.logo-left{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-text-color);
+}
+
+.logo-right{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
 .navigation-link{
     font-weight: 500;
     font-size: 16px;
@@ -25,12 +53,14 @@ body {
     color: #404BBF;
 }
 
+.mail{
+    font-style: normal;
+}
 .mail-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
 }
 
 .mail-link:hover, .mail-link:focus{
@@ -42,12 +72,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;    
-    color: var(--text-color);
 }
-
+ .hero{
+    background-color: var(--background-color);
+ }
 .hero-heading{
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -62,26 +93,30 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background: #4D5AE5;
+    background: var(--second-text-color);
     cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero-btn:hover, .hero-btn:focus{
     background: #404BBF;
 }
 
+.advantages-title{
+
+}
 .advantages-heading{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .advantages-text{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;    
-    color: var(--text-color);
+    letter-spacing: 0.02em;
+    color: var(--text-color);    
 }
 
 .product-heading{ 
@@ -90,15 +125,24 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--text-color);
 }
 
+.specialist-heading{
+    background-color: #F4F4FD;
+}
 .specialist-heading{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--text-color);
     }
+
+.specialist-list{
+    background-color: #FFFFFF;
+}
 
 .specialist-subheading{
     font-weight: 500;
@@ -106,6 +150,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--text-color);
     }
 
 .specialist-text{
@@ -117,7 +162,7 @@ body {
     }
 
 .footer{
-    background: #2E2F42;
+   background-color: var(--background-color);
 }
 
 .footer-text{
@@ -135,7 +180,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;    
-    color: #4D5AE5;
+    color: var(--second-text-color);
     cursor: pointer;
 }
 
@@ -149,15 +194,25 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .gallery-text{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-color);
 }
 
+.logo-right-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;    
+    color: #F4F4FD;
+}
 
     
      
