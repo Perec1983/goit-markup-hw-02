@@ -1,6 +1,7 @@
 :root {
     --text-color: #2E2F42;
     --second-text-color: #4D5AE5;
+    --body-text-color: #434455;
 }
 
 
@@ -206,6 +207,7 @@ background-color: #F4F4FD;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color:var(--body-text-color) ;
 }
 
 .logo-right-footer{
