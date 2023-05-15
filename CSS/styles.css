@@ -1,3 +1,10 @@
+:root{
+    --text-color: #2E2F42;
+    --second-text-color: #4D5AE5;
+    --background-color: #2E2F42;
+    --text-color-body: #434455;
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -5,12 +12,6 @@ body {
     background-color: #FFFFFF;
 }
 
-:root{
-    --text-color: #2E2F42;
-    --second-text-color: #4D5AE5;
-    --background-color: #2E2F42;
-    --text-color-body: #434455;
-}
 
 .list{
     list-style: none;
